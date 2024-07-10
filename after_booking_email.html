@@ -33,6 +33,18 @@
             margin: 20px 0;
         }
 
+        .responsive-container1 {
+            padding: 15px;
+        }
+
+        .responsive-container2 {
+            padding: 15px;
+        }
+
+        .responsive-container3 {
+            padding: 10px;
+        }
+
         @media (max-width: 600px) {
 
             .header,
@@ -50,6 +62,46 @@
 
             .message {
                 font-size: 18px;
+            }
+
+            .responsive-container {
+                display: block !important;
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            .responsive-container td {
+                display: block;
+                width: 100%;
+                text-align: center !important;
+                margin-bottom: 20px;
+            }
+
+            .responsive-container div {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+
+            .responsive-container a {
+                padding: 8px 16px;
+            }
+
+            .responsive-container .square {
+                height: 150px;
+                width: 150px;
+                margin: 0 auto;
+            }
+
+            .responsive-container1 {
+                padding: 0px;
+            }
+
+            .responsive-container2 {
+                padding: 0px;
+            }
+
+            .responsive-container3 {
+                padding: 0px;
             }
 
 
@@ -201,12 +253,27 @@
             </div>
         </div>
 
-
-
-
-
-
-
+        <!-- Station early -->
+        <div class="responsive-container responsive-container2"
+            style="max-width: 570px; margin: 30px auto; text-align: right;">
+            <table role="presentation" style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <td class="responsive-container3" style="width: 100%;">
+                        <div style="font-weight: 700; font-size: 20px;">Get to the station early</div>
+                        <div style="font-size: 16px; margin: 10px 0px;">Please leave plenty of time to get to the
+                            platform. The doors may close a little before departure.</div>
+                        <a href="#details"
+                            style="margin-top: 10px; background-color: #FF4160; color: #ffffff; padding: 10px 20px; border-radius: 20px; text-decoration: none; display: inline-block;">See
+                            details</a>
+                    </td>
+                    <td class="responsive-container responsive-container1" style="text-align: center;">
+                        <div class="square"
+                            style="height: 200px; width: 200px; border-radius: 30px; background-color: #FF4160; display: inline-block;">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
 
         <div style="border: 1px solid #FF4160;"></div>
